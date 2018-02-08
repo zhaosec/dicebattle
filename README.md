@@ -1,1 +1,1 @@
-# dicebattle
+Our final destination of the job is to complete dice battle with two players. There will be two "Dice" buttons on the user interface, each player can click the button once in each game, the player who got a bigger number on the dice wins the game.

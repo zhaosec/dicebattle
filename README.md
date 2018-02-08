@@ -9,7 +9,7 @@
 ***
 
 ##    MVP
-    It is application run in PC. Our final destination of the job is to compete dice numbers between two players. There will be two dices and a play button for each players on the user interface, each player can click his button once in each phase, and the total number show up on scoreboard. The player who got a bigger number on the dice wins the game. The players can decide if they want to be the first to dice or it can be decided randomly if they want for fairness. Each players has three chances to roll the dice. Although both of users have three chances, they can stop rolling dice if they are satisfied from their rolling result. If they does not like their result for the first time, they can roll it again up to three times. All of team members will use same programming language, Java. The Integrated Develop Enviorement will be Eclipse. 
+    It is application run in PC. Our final destination of the job is to compete dice numbers between two players. There will be two dices and a play button for each players on the user interface, each player can click his button once in each phase, and the total number show up on scoreboard. The player who got a bigger number on the dice wins the game. The players can decide if they want to be the first to dice or it can be decided randomly if they want for fairness. Each players has three chances to roll the dice. Although both of users have three chances, they can stop rolling dice if they are satisfied from their rolling result. If they does not like their result for the first time, they can roll it again up to three times. All of team members will use same programming language, Java. The Integrated Develop Enviorement will be Eclipse. 
     
 ***
 

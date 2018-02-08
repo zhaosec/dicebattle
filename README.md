@@ -16,7 +16,7 @@
 ## Add-On-Feature
     1. Add sound effects.
     2. Setup user account (user ID, and password) function for storing user data like win rate, play history into database.
-    3. 
+    3. Special light effects on winner.
   
 ***
 

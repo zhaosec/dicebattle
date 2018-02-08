@@ -1,10 +1,10 @@
 # DiceBattle
 
-Table of Contents 
+## Table of Contents 
 
-1. MVP
-2. Add-On-Features
-3. User Story
+### 1. MVP
+### 2. Add-On-Features
+### 3. User Story
 
 ***
 

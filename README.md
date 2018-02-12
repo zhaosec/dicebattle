@@ -1,5 +1,5 @@
 # DiceBattle
-https://gitter.im/Dice_battle/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Dice_battle/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ## Table of Contents 
 
 ### 1. MVP

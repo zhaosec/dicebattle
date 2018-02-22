@@ -18,14 +18,14 @@ public class Signinpage extends Frame {
     public void Signinpage(String u1, String u2) {
     	
     
-        setTitle("Signing In"); // 프레임 제목
-        setLocation(0, 100); //창이 뜨는 위치
+        setTitle("Signing In");
+        setLocation(0, 100); 
         setLayout(null);
-        setSize(400, 400); // 창 크기
+        setSize(400, 400); 
         
         
-        setResizable(false); // 창 크기 조절
-        
+        setResizable(false); 
+       
      
         Label Firstnamelabel = new Label("First Username : ");
         Label Firstpasslabel = new Label("First Password : ");

@@ -14,13 +14,13 @@ public class MakeAccount extends Frame {
  
     public void MakeAccount() {
  
-        setTitle("Signing Up"); // 프레임 제목
-        setLocation(0, 100); //창이 뜨는 위치
+        setTitle("Signing Up"); 
+        setLocation(0, 100); 
         setLayout(null);
-        setSize(400, 400); // 창 크기
+        setSize(400, 400); 
         
         
-        setResizable(false); // 창 크기 조절
+        setResizable(false); 
         
      
         Label Unamelabel = new Label("Username : ");
@@ -71,7 +71,7 @@ public class MakeAccount extends Frame {
        
         //userText.setLocation(100, );
         
-        //버튼 추가
+        
         Button btn1 = new Button(" Up");
         Button btn2 = new Button("Back");
         btn1.setSize(40,30);

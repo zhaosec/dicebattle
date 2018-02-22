@@ -4,9 +4,6 @@ import java.awt.Label;
 import java.awt.List;
 import java.awt.TextArea;
 import java.awt.TextField;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
-import java.awt.event.WindowEvent;
 import java.awt.event.*;
 import java.io.*;
  
@@ -83,11 +80,97 @@ public class Signinpage extends Frame {
         
 		btn1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-            //	u1 = FuserText.getText();
-            //	u2 = FuserText.getText();
+            	String fid = "";
+            	String fpw = "";
+            	String sid = "";
+            	String spw = "";
+            	
+            	String fname1 = FuserText.getText()+".txt";
+            	String fname2 = SuserText.getText()+".txt";
+            	System.out.println(fname1);
+            try {
+            	      
+            	      BufferedReader in = new BufferedReader(new FileReader(fname1));
+            	      fid = in.readLine();
+            	      fpw = in.readLine();
+ 
+            	      in.close();	
+            }catch(Exception wre) {
+           	 wre.printStackTrace();
             }
             
-        });
+          
+            try {
+      	      
+      	      BufferedReader in = new BufferedReader(new FileReader(fname2));
+      	      sid = in.readLine();
+      	      spw = in.readLine();
+
+      	      in.close();	
+      }catch(Exception wre) {
+     	 wre.printStackTrace();
+      }       
+            if(!(FpassText.getText().equals(fpw)))
+            {
+            	final Frame ffs = new Frame("Failed");
+          	  ffs.setSize(300,300);
+          	  ffs.setLocation(0, 100);
+          	  ffs.setLayout(null);
+
+          	  Label flb = new Label("1st User Login Failed");
+
+          	  flb.setSize(200,200);
+          	  flb.setLocation(50,50);
+          	  ffs.add(flb);
+          	  ffs.setVisible(true);
+          	  ffs.addWindowListener(new WindowAdapter(){
+                    public void windowClosing(WindowEvent e) { 
+                            ffs.dispose();
+                    }
+        		});	
+            	dispose();
+            	
+            } else if(!(SpassText.getText().equals(spw)))
+            {
+            	final Frame ffs2 = new Frame("Failed");
+          	  ffs2.setSize(300,300);
+          	  ffs2.setLocation(0, 100);
+          	  ffs2.setLayout(null);
+
+          	  Label flb = new Label("2nd User Login Failed");
+
+          	  flb.setSize(200,200);
+          	  flb.setLocation(50,50);
+          	  ffs2.add(flb);
+          	  ffs2.setVisible(true);
+          	  ffs2.addWindowListener(new WindowAdapter(){
+                    public void windowClosing(WindowEvent e) { 
+                            ffs2.dispose();
+                    }
+        		});	
+            	dispose();
+            	
+            }
+            else {
+            	final Frame ffs2 = new Frame("Login Success");
+          	  ffs2.setSize(300,300);
+          	  ffs2.setLocation(0, 100);
+          	  ffs2.setLayout(null);
+
+          	  Label flb = new Label("Login Successfully");
+
+          	  flb.setSize(200,200);
+          	  flb.setLocation(50,50);
+          	  ffs2.add(flb);
+          	  ffs2.setVisible(true);
+          	  ffs2.addWindowListener(new WindowAdapter(){
+                    public void windowClosing(WindowEvent e) { 
+                            ffs2.dispose();
+                    }
+        		});		
+            }
+            }
+            });
 		
 		btn2.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {

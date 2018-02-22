@@ -89,7 +89,7 @@ public class MakeAccount extends Frame {
               if(pass1.equals(pass2))
               {
             	  //write into database
-            	  
+            	  String filename = userText.getText()+".txt";
             	  //confirmation page
             	  final Frame cfs = new Frame("Confirmed");
             	  cfs.setSize(300,300);
@@ -101,6 +101,20 @@ public class MakeAccount extends Frame {
             	  cfs.add(clb);
             	  cfs.setVisible(true);
             	  
+                  // BufferedWriter 와 FileWriter를 조합하여 사용 (속도 향상)
+                 try {
+                	 BufferedWriter fw = new BufferedWriter(new FileWriter(filename, true));
+                 
+                  String txt = userText.getText()+"\n"+passwordText.getText(); 
+                  // 파일안에 문자열 쓰기
+                  fw.write(txt);
+                  fw.flush();
+       
+                  // 객체 닫기
+                  fw.close();
+                 }catch(Exception savee) {
+                	 savee.printStackTrace();
+                 }
             	  cfs.addWindowListener(new WindowAdapter(){
                       public void windowClosing(WindowEvent e) { 
                               cfs.dispose();

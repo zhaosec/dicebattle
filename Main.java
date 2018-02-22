@@ -10,9 +10,7 @@ public class Main {
 		String u2 = "y";
 		LoginGUI IN_GUI = new LoginGUI();
 		IN_GUI.LoginGUI(u1, u2);
-		
-		System.out.print(u1);
-		System.out.print(u2);
+
 		
 	}
 

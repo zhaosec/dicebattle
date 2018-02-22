@@ -38,7 +38,7 @@ public class Dice extends Thread{
 	   public int checkDiceNum() {
 		   return this.result();
 	   }
-	    public void Roll(){
+	    public void Roll  (){
 	    dieLabel.setIcon(new ImageIcon("die" + DiceNumber + ".png"));
 	    
 	    }

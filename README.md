@@ -25,6 +25,16 @@
 
 Youtube Video Link(Prototype) https://youtu.be/n_kjfn-GYK4
 
+How to run?
 
+Here are the following steps for running game:
+
+1. Download Eclipse
+2. Right click on the eclipse page and click import
+3. Import project from https://github.com/zhaosec/dicebattle/edit/developer/
+4. On the left side, right click the "main" class
+5. Select "Run as" and click "Java application"
+
+*Note: We are using Eclipse now to run because this is prototype. However, It would be changed later from Eclipse to Android Studio.
 
  

@@ -31,7 +31,14 @@ Here are the following steps for running game:
 
 1. go to https://github.com/zhaosec/dicebattle, click "release" and download java files 
 2. Download Java (Including JDK and JRE)
-3. open your command line, move to the directory where the java files located by using command: cd <your folder>
+3. open your command line, move to the directory where the java files located. Here are steps:
+
+C:\> cd \mywork
+
+C:\mywork> set path=%path%;C:\Program Files\Java\jdk1.8.0_51\bin
+
+*jdk version might be different from yours*
+
 4. Write following commands :
    
    javac main.java

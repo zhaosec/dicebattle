@@ -159,10 +159,30 @@ public class Signinpage extends Frame {
 
           	  Label flb = new Label("Login Successfully");
 
-          	  flb.setSize(200,200);
-          	  flb.setLocation(50,50);
+          	  flb.setSize(100,100);
+          	  flb.setLocation(70,50);
           	  ffs2.add(flb);
+          	  
+             Button play1 = new Button("PLAY");
+              play1.setSize(40,30);
+              play1.setLocation(250, 200);
+              
+              ffs2.add(play1);
+          	  
+              play1.addActionListener(new ActionListener() {
+                  public void actionPerformed(ActionEvent e) {
+                	try {
+						UI dui = new UI();
+					} catch (IOException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+                  }
+                  });   
+          	  
           	  ffs2.setVisible(true);
+          	  
+          	  
           	  ffs2.addWindowListener(new WindowAdapter(){
                     public void windowClosing(WindowEvent e) { 
                             ffs2.dispose();

@@ -29,12 +29,16 @@ How to run?
 
 Here are the following steps for running game:
 
-1. Download Eclipse
-2. Click "File" on the left side above
-3. Click "import",click "Git" folder, and then click "Projects from Git"
-4. Import project from https://github.com/zhaosec/dicebattle/edit/developer/
-5. On the left side, right click the "main" class
-6. Select "Run as" and click "Java application"
+1. go to https://github.com/zhaosec/dicebattle, click "release" and download java files 
+2. Download Java (Including JDK and JRE)
+3. open your command line, move to the directory where the java files located by using command: cd <your folder>
+4. Write following commands :
+   
+   javac main.java
+   dir
+   java main
+
+6. The game will be run
 
 *Note: We are using Eclipse now to run because this is prototype. However, It would be changed later from Eclipse to Android Studio.
 

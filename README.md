@@ -24,3 +24,7 @@
     Our users are going to use this application when they are betting with their friend. In other words, as a user, I want to make a bet with my friend so that we can decide who will pay or take charge of something that everybody wants to avoid. For example, between two users, the loser from betting should pay for meal, or drink or do dishwash.
 
 Youtube Video Link(Prototype) https://youtu.be/n_kjfn-GYK4
+
+
+
+ 

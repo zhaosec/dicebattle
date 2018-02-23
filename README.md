@@ -35,10 +35,12 @@ Here are the following steps for running game:
 4. Write following commands :
    
    javac main.java
+   
    dir
+   
    java main
 
-6. The game will be run
+5. The game will be run
 
 *Note: We are using Eclipse now to run because this is prototype. However, It would be changed later from Eclipse to Android Studio.
 
